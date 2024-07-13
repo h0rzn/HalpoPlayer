@@ -102,6 +102,7 @@
 		DAA35B932A98E765005BD979 /* HalpoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA35B922A98E765005BD979 /* HalpoPlayerUITestsLaunchTests.swift */; };
 		DAA35B9A2A98EB16005BD979 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA35B992A98EB16005BD979 /* SnapshotHelper.swift */; };
 		DAAF52E42A6D86E300CEF449 /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF52E32A6D86E300CEF449 /* ArtistViewModel.swift */; };
+		E4FD6D9D2C42729700714D2F /* GetStarredResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD6D9C2C42729700714D2F /* GetStarredResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +188,7 @@
 		DAA35B922A98E765005BD979 /* HalpoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalpoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DAA35B992A98EB16005BD979 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		DAAF52E32A6D86E300CEF449 /* ArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
+		E4FD6D9C2C42729700714D2F /* GetStarredResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarredResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +291,7 @@
 				DA3E7C402A69896600DD5180 /* GetArtistInfoResponse.swift */,
 				DA2622492A7940FE006A2CDD /* CreatePlaylistResponse.swift */,
 				DA8BCF552AAF450100A2F790 /* SearchScope.swift */,
+				E4FD6D9C2C42729700714D2F /* GetStarredResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -553,6 +556,7 @@
 				DA290CEB2AE7BFE400552D1E /* AppIntents.swift in Sources */,
 				DA7F1E9E2A652E14006D8934 /* GetAlbumResponse.swift in Sources */,
 				DA7F1EC22A652E2A006D8934 /* LoginView.swift in Sources */,
+				E4FD6D9D2C42729700714D2F /* GetStarredResponse.swift in Sources */,
 				DA7F1EB12A652E25006D8934 /* ImageCache.swift in Sources */,
 				DA7F1EC02A652E2A006D8934 /* SearchView.swift in Sources */,
 				DA7F1EC32A652E2A006D8934 /* MediaControlBar.swift in Sources */,

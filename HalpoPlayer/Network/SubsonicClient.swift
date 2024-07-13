@@ -198,6 +198,9 @@ class SubsonicClient {
 	func getArtistInfo(id: String) async throws -> GetArtistInfoResponse {
 		return try await request(.getArtistInfo(id: id)) as GetArtistInfoResponse
 	}
+	func getStarred() async throws -> GetStarredResponse {
+		return try await request(.getStarred) as GetStarredResponse
+	}
 	func createPlaylist(name: String) async throws -> CreatePlaylistResponse {
 		return try await request(.createPlaylist(name: name)) as CreatePlaylistResponse
 	}

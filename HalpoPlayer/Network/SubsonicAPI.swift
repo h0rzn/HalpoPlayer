@@ -24,6 +24,7 @@ enum SubsonicAPI {
 	case getArtists
 	case getArtist(id: String)
 	case getArtistInfo(id: String)
+	case getStarred
 	case createPlaylist(name: String)
 	case scrobble(id: String)
 	
@@ -83,6 +84,8 @@ enum SubsonicAPI {
 			return "getArtist?id=\(id)"
 		case .getArtistInfo(let id):
 			return "getArtistInfo?id=\(id)"
+		case .getStarred:
+			return "getStarred2?"
 		case .createPlaylist(let name):
 			return "createPlaylist?name=\(name)"
 		case .scrobble(let id):
